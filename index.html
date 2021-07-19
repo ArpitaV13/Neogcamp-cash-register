@@ -10,24 +10,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <section class="container">
       <h2>Cash Register Manager</h2>
       <p>
           Enter the bill amount and cash given by the customer and know the number of notes that you will get in return.
       </p>
-      <div class="user-input">
+      
+      <div class="bill-amt">
       <h3>Bill Amount:</h3>
-      <input type="number">
+      <input class="input" type="number">
+      <button id="bill-btn">Next</button>
+      </div>
+      
+      <div class="cash-paid">
       <h3>Cash paid by the customer:</h3>
-      <input type="number">
+      <input class="input" type="number">
+      <button id="check-btn">Check</button>
     </div>
-      <button id="input-btn">Check</button>
-      <div class="table">
+   <div class="return">
+      <h3>Return:</h3>
         <table>
            <tbody>
                <tr>
                    <th>No. of Notes</th>
-                   <td> </td>
+                   <td></td>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -47,10 +53,10 @@
         </tr>
            </tbody>
         </table>
-      </div>
+    </div>
      
 
-  </div>  
+  </section>  
  
  
     
