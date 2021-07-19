@@ -1,0 +1,32 @@
+*{
+    margin:0;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    background-color: blue;
+    max-width: 50%;
+}
+.container h2{
+    padding:2rem;
+}
+.container p{
+    font-weight:600;
+    padding:1rem;
+}
+.container input{
+    padding:1rem;
+    width:50%;
+    margin:1rem;
+}
+.table{
+ padding:1rem;
+ margin:auto;
+}
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    width:2rem;
+}
