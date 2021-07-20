@@ -5,6 +5,7 @@ var checkAmt=document.querySelector("#check-amt");
 var checkBtn=document.querySelector("#check-btn");
 var showAmt=document.querySelector(".return");
 var noOfNotes=document.querySelectorAll(".noOfNotes");
+var change=document.querySelector("#change");
 
 
 var cashPaid=document.querySelector('.cash-paid');
@@ -18,6 +19,7 @@ inputBtn.addEventListener('click',()=>{
     }
     else{
         showError("Please enter the bill Amount");
+        return;
     }
    
 })
