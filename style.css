@@ -12,6 +12,7 @@ body{
     text-align: center;
     background-color: cadetblue;
   
+    
 }
 h2,h3{
     padding:1rem;
@@ -35,6 +36,15 @@ button{
 
 
 }
+
+#errorDisplay{
+    display:none;
+
+    margin-top: 1rem;
+    font-size: bold;
+    font-weight:550;
+}
+
  .cash-paid{
     display:none;
 } 
