@@ -38,8 +38,6 @@ button{
 }
 
 #errorDisplay{
-    display:none;
-
     margin-top: 1rem;
     font-size: bold;
     font-weight:550;
