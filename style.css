@@ -29,11 +29,11 @@ h2,h3{
     margin:0.5rem;
 
 }
-button{
+.button{
     background-color: #6B7280;
     font-weight: bold;
     display:block;
-    margin:auto;
+    margin:1rem auto;
     padding:0.6rem 1rem;
     border-radius: 0.5rem;
     border:1px solid black;
